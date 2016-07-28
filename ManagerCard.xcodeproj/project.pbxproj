@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31983B5B1D49350C00533617 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31983B5A1D49350C00533617 /* main.m */; };
+		31983B5E1D49350C00533617 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31983B5D1D49350C00533617 /* AppDelegate.m */; };
+		31983B611D49350C00533617 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31983B601D49350C00533617 /* ViewController.m */; };
+		31983B641D49350C00533617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31983B621D49350C00533617 /* Main.storyboard */; };
+		31983B661D49350C00533617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31983B651D49350C00533617 /* Assets.xcassets */; };
+		31983B691D49350C00533617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31983B671D49350C00533617 /* LaunchScreen.storyboard */; };
+		31983B741D49350C00533617 /* ManagerCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31983B731D49350C00533617 /* ManagerCardTests.m */; };
+		31983B7F1D49350C00533617 /* ManagerCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31983B7E1D49350C00533617 /* ManagerCardUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31983B701D49350C00533617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31983B4E1D49350C00533617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31983B551D49350C00533617;
+			remoteInfo = ManagerCard;
+		};
+		31983B7B1D49350C00533617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31983B4E1D49350C00533617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31983B551D49350C00533617;
+			remoteInfo = ManagerCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31983B561D49350C00533617 /* ManagerCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManagerCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31983B5A1D49350C00533617 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31983B5C1D49350C00533617 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31983B5D1D49350C00533617 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31983B5F1D49350C00533617 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31983B601D49350C00533617 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31983B631D49350C00533617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31983B651D49350C00533617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31983B681D49350C00533617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31983B6A1D49350C00533617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31983B6F1D49350C00533617 /* ManagerCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManagerCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31983B731D49350C00533617 /* ManagerCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerCardTests.m; sourceTree = "<group>"; };
+		31983B751D49350C00533617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31983B7A1D49350C00533617 /* ManagerCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManagerCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31983B7E1D49350C00533617 /* ManagerCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerCardUITests.m; sourceTree = "<group>"; };
+		31983B801D49350C00533617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31983B531D49350C00533617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31983B6C1D49350C00533617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31983B771D49350C00533617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31983B4D1D49350C00533617 = {
+			isa = PBXGroup;
+			children = (
+				31983B581D49350C00533617 /* ManagerCard */,
+				31983B721D49350C00533617 /* ManagerCardTests */,
+				31983B7D1D49350C00533617 /* ManagerCardUITests */,
+				31983B571D49350C00533617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31983B571D49350C00533617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31983B561D49350C00533617 /* ManagerCard.app */,
+				31983B6F1D49350C00533617 /* ManagerCardTests.xctest */,
+				31983B7A1D49350C00533617 /* ManagerCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31983B581D49350C00533617 /* ManagerCard */ = {
+			isa = PBXGroup;
+			children = (
+				31983B8D1D4935A400533617 /* Resource */,
+				31983B8C1D49359800533617 /* Source */,
+				31983B591D49350C00533617 /* Supporting Files */,
+			);
+			path = ManagerCard;
+			sourceTree = "<group>";
+		};
+		31983B591D49350C00533617 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31983B6A1D49350C00533617 /* Info.plist */,
+				31983B5C1D49350C00533617 /* AppDelegate.h */,
+				31983B5D1D49350C00533617 /* AppDelegate.m */,
+				31983B5A1D49350C00533617 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31983B721D49350C00533617 /* ManagerCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				31983B731D49350C00533617 /* ManagerCardTests.m */,
+				31983B751D49350C00533617 /* Info.plist */,
+			);
+			path = ManagerCardTests;
+			sourceTree = "<group>";
+		};
+		31983B7D1D49350C00533617 /* ManagerCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31983B7E1D49350C00533617 /* ManagerCardUITests.m */,
+				31983B801D49350C00533617 /* Info.plist */,
+			);
+			path = ManagerCardUITests;
+			sourceTree = "<group>";
+		};
+		31983B8C1D49359800533617 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				31983B8E1D4935F100533617 /* View */,
+				31983B8F1D4935F700533617 /* Controller */,
+				31983B901D4935FD00533617 /* Manager */,
+				31983B911D49360B00533617 /* Business */,
+				31983B921D49362100533617 /* Model */,
+				31983B931D49362800533617 /* Provider */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		31983B8D1D4935A400533617 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				31983B951D49369400533617 /* Storyboards */,
+				31983B651D49350C00533617 /* Assets.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		31983B8E1D4935F100533617 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = Source/View;
+			sourceTree = "<group>";
+		};
+		31983B8F1D4935F700533617 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31983B5F1D49350C00533617 /* ViewController.h */,
+				31983B601D49350C00533617 /* ViewController.m */,
+			);
+			name = Controller;
+			path = Source/Controller;
+			sourceTree = "<group>";
+		};
+		31983B901D4935FD00533617 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Manager;
+			path = Source/Manager;
+			sourceTree = "<group>";
+		};
+		31983B911D49360B00533617 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Business;
+			path = Source/Business;
+			sourceTree = "<group>";
+		};
+		31983B921D49362100533617 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = Source/Model;
+			sourceTree = "<group>";
+		};
+		31983B931D49362800533617 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Provider;
+			path = Source/Provider;
+			sourceTree = "<group>";
+		};
+		31983B941D49368F00533617 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		31983B951D49369400533617 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				31983B941D49368F00533617 /* Login */,
+				31983B621D49350C00533617 /* Main.storyboard */,
+				31983B671D49350C00533617 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31983B551D49350C00533617 /* ManagerCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31983B831D49350C00533617 /* Build configuration list for PBXNativeTarget "ManagerCard" */;
+			buildPhases = (
+				31983B521D49350C00533617 /* Sources */,
+				31983B531D49350C00533617 /* Frameworks */,
+				31983B541D49350C00533617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManagerCard;
+			productName = ManagerCard;
+			productReference = 31983B561D49350C00533617 /* ManagerCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31983B6E1D49350C00533617 /* ManagerCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31983B861D49350C00533617 /* Build configuration list for PBXNativeTarget "ManagerCardTests" */;
+			buildPhases = (
+				31983B6B1D49350C00533617 /* Sources */,
+				31983B6C1D49350C00533617 /* Frameworks */,
+				31983B6D1D49350C00533617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31983B711D49350C00533617 /* PBXTargetDependency */,
+			);
+			name = ManagerCardTests;
+			productName = ManagerCardTests;
+			productReference = 31983B6F1D49350C00533617 /* ManagerCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31983B791D49350C00533617 /* ManagerCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31983B891D49350C00533617 /* Build configuration list for PBXNativeTarget "ManagerCardUITests" */;
+			buildPhases = (
+				31983B761D49350C00533617 /* Sources */,
+				31983B771D49350C00533617 /* Frameworks */,
+				31983B781D49350C00533617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31983B7C1D49350C00533617 /* PBXTargetDependency */,
+			);
+			name = ManagerCardUITests;
+			productName = ManagerCardUITests;
+			productReference = 31983B7A1D49350C00533617 /* ManagerCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31983B4E1D49350C00533617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CIT;
+				TargetAttributes = {
+					31983B551D49350C00533617 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					31983B6E1D49350C00533617 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 31983B551D49350C00533617;
+					};
+					31983B791D49350C00533617 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 31983B551D49350C00533617;
+					};
+				};
+			};
+			buildConfigurationList = 31983B511D49350C00533617 /* Build configuration list for PBXProject "ManagerCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31983B4D1D49350C00533617;
+			productRefGroup = 31983B571D49350C00533617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31983B551D49350C00533617 /* ManagerCard */,
+				31983B6E1D49350C00533617 /* ManagerCardTests */,
+				31983B791D49350C00533617 /* ManagerCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31983B541D49350C00533617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31983B691D49350C00533617 /* LaunchScreen.storyboard in Resources */,
+				31983B661D49350C00533617 /* Assets.xcassets in Resources */,
+				31983B641D49350C00533617 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31983B6D1D49350C00533617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31983B781D49350C00533617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31983B521D49350C00533617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31983B611D49350C00533617 /* ViewController.m in Sources */,
+				31983B5E1D49350C00533617 /* AppDelegate.m in Sources */,
+				31983B5B1D49350C00533617 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31983B6B1D49350C00533617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31983B741D49350C00533617 /* ManagerCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31983B761D49350C00533617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31983B7F1D49350C00533617 /* ManagerCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31983B711D49350C00533617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31983B551D49350C00533617 /* ManagerCard */;
+			targetProxy = 31983B701D49350C00533617 /* PBXContainerItemProxy */;
+		};
+		31983B7C1D49350C00533617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31983B551D49350C00533617 /* ManagerCard */;
+			targetProxy = 31983B7B1D49350C00533617 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31983B621D49350C00533617 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31983B631D49350C00533617 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31983B671D49350C00533617 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31983B681D49350C00533617 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31983B811D49350C00533617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31983B821D49350C00533617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31983B841D49350C00533617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ManagerCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CIT.ManagerCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31983B851D49350C00533617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ManagerCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CIT.ManagerCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31983B871D49350C00533617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ManagerCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CIT.ManagerCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ManagerCard.app/ManagerCard";
+			};
+			name = Debug;
+		};
+		31983B881D49350C00533617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ManagerCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CIT.ManagerCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ManagerCard.app/ManagerCard";
+			};
+			name = Release;
+		};
+		31983B8A1D49350C00533617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ManagerCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CIT.ManagerCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ManagerCard;
+			};
+			name = Debug;
+		};
+		31983B8B1D49350C00533617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ManagerCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CIT.ManagerCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ManagerCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31983B511D49350C00533617 /* Build configuration list for PBXProject "ManagerCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31983B811D49350C00533617 /* Debug */,
+				31983B821D49350C00533617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31983B831D49350C00533617 /* Build configuration list for PBXNativeTarget "ManagerCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31983B841D49350C00533617 /* Debug */,
+				31983B851D49350C00533617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31983B861D49350C00533617 /* Build configuration list for PBXNativeTarget "ManagerCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31983B871D49350C00533617 /* Debug */,
+				31983B881D49350C00533617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31983B891D49350C00533617 /* Build configuration list for PBXNativeTarget "ManagerCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31983B8A1D49350C00533617 /* Debug */,
+				31983B8B1D49350C00533617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31983B4E1D49350C00533617 /* Project object */;
+}
