@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MCLoginView.h"
+#import "MCLoginManager.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
+
+@property (strong, nonatomic) MCLoginView *loginView;
+@property (strong,nonatomic) MCLoginManager *loginManager;
 
 
+- (IBAction)submitButtonLogin:(id)sender;
+- (void)loginResponse:(MCUserModel *)user error:(NSError *)error;
 @end
 

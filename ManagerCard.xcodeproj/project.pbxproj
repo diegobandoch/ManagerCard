@@ -7,14 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22DB64D0AED81FAADA205D27 /* libPods-ManagerCard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24976A2707078618D8728BF0 /* libPods-ManagerCard.a */; };
+		312C1F6F1D4F886E0029F3E8 /* SF-Compact-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F5A1D4F886E0029F3E8 /* SF-Compact-Display-Black.otf */; };
+		312C1F701D4F886E0029F3E8 /* SF-Compact-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F5B1D4F886E0029F3E8 /* SF-Compact-Display-Bold.otf */; };
+		312C1F711D4F886E0029F3E8 /* SF-Compact-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F5C1D4F886E0029F3E8 /* SF-Compact-Display-Heavy.otf */; };
+		312C1F721D4F886E0029F3E8 /* SF-Compact-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F5D1D4F886E0029F3E8 /* SF-Compact-Display-Light.otf */; };
+		312C1F731D4F886E0029F3E8 /* SF-Compact-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F5E1D4F886E0029F3E8 /* SF-Compact-Display-Medium.otf */; };
+		312C1F741D4F886E0029F3E8 /* SF-Compact-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F5F1D4F886E0029F3E8 /* SF-Compact-Display-Regular.otf */; };
+		312C1F751D4F886E0029F3E8 /* SF-Compact-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F601D4F886E0029F3E8 /* SF-Compact-Display-Semibold.otf */; };
+		312C1F761D4F886E0029F3E8 /* SF-Compact-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F611D4F886E0029F3E8 /* SF-Compact-Display-Thin.otf */; };
+		312C1F771D4F886E0029F3E8 /* SF-Compact-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F621D4F886E0029F3E8 /* SF-Compact-Display-Ultralight.otf */; };
+		312C1F781D4F886E0029F3E8 /* SF-Compact-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F631D4F886E0029F3E8 /* SF-Compact-Text-Bold.otf */; };
+		312C1F791D4F886E0029F3E8 /* SF-Compact-Text-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F641D4F886E0029F3E8 /* SF-Compact-Text-BoldItalic.otf */; };
+		312C1F7A1D4F886E0029F3E8 /* SF-Compact-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F651D4F886E0029F3E8 /* SF-Compact-Text-Heavy.otf */; };
+		312C1F7B1D4F886E0029F3E8 /* SF-Compact-Text-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F661D4F886E0029F3E8 /* SF-Compact-Text-HeavyItalic.otf */; };
+		312C1F7C1D4F886E0029F3E8 /* SF-Compact-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F671D4F886E0029F3E8 /* SF-Compact-Text-Light.otf */; };
+		312C1F7D1D4F886E0029F3E8 /* SF-Compact-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F681D4F886E0029F3E8 /* SF-Compact-Text-LightItalic.otf */; };
+		312C1F7E1D4F886E0029F3E8 /* SF-Compact-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F691D4F886E0029F3E8 /* SF-Compact-Text-Medium.otf */; };
+		312C1F7F1D4F886E0029F3E8 /* SF-Compact-Text-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F6A1D4F886E0029F3E8 /* SF-Compact-Text-MediumItalic.otf */; };
+		312C1F801D4F886E0029F3E8 /* SF-Compact-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F6B1D4F886E0029F3E8 /* SF-Compact-Text-Regular.otf */; };
+		312C1F811D4F886E0029F3E8 /* SF-Compact-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F6C1D4F886E0029F3E8 /* SF-Compact-Text-RegularItalic.otf */; };
+		312C1F821D4F886E0029F3E8 /* SF-Compact-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F6D1D4F886E0029F3E8 /* SF-Compact-Text-Semibold.otf */; };
+		312C1F831D4F886E0029F3E8 /* SF-Compact-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F6E1D4F886E0029F3E8 /* SF-Compact-Text-SemiboldItalic.otf */; };
+		312C1F8A1D4F8D960029F3E8 /* UITextField+EmailTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 312C1F891D4F8D960029F3E8 /* UITextField+EmailTextField.m */; };
+		313FCDF61D53AC5A000F1CE4 /* MCLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 313FCDF51D53AC5A000F1CE4 /* MCLoginManager.m */; };
+		313FCDFC1D53CC15000F1CE4 /* MCLoginBussines.m in Sources */ = {isa = PBXBuildFile; fileRef = 313FCDFB1D53CC15000F1CE4 /* MCLoginBussines.m */; };
+		313FCDFF1D53CC29000F1CE4 /* MCLoginProvider+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 313FCDFE1D53CC29000F1CE4 /* MCLoginProvider+User.m */; };
+		3157A4341D5E3DFA003AE7FC /* MCRegisterRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3157A4331D5E3DFA003AE7FC /* MCRegisterRequestManager.m */; };
+		3157A43A1D5E3FB6003AE7FC /* MCEthernetBussines.m in Sources */ = {isa = PBXBuildFile; fileRef = 3157A4391D5E3FB6003AE7FC /* MCEthernetBussines.m */; };
+		3166A5E61D5DF75F001C1D8D /* UIEmailValidateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166A5E51D5DF75F001C1D8D /* UIEmailValidateField.m */; };
+		3166A5EA1D5E0429001C1D8D /* UINomeValidateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166A5E91D5E0429001C1D8D /* UINomeValidateField.m */; };
+		3166A5ED1D5E0A0D001C1D8D /* UICardValidateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166A5EC1D5E0A0D001C1D8D /* UICardValidateField.m */; };
+		3166A5F01D5E0D1C001C1D8D /* UICellPhoneValidateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166A5EF1D5E0D1C001C1D8D /* UICellPhoneValidateField.m */; };
+		318E660D1D54BA5E006014E4 /* MCUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 318E660C1D54BA5E006014E4 /* MCUserModel.m */; };
+		318E66121D58B587006014E4 /* MCLoginProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 318E66111D58B587006014E4 /* MCLoginProvider.m */; };
 		31983B5B1D49350C00533617 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31983B5A1D49350C00533617 /* main.m */; };
 		31983B5E1D49350C00533617 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31983B5D1D49350C00533617 /* AppDelegate.m */; };
 		31983B611D49350C00533617 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31983B601D49350C00533617 /* ViewController.m */; };
-		31983B641D49350C00533617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31983B621D49350C00533617 /* Main.storyboard */; };
 		31983B661D49350C00533617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31983B651D49350C00533617 /* Assets.xcassets */; };
 		31983B691D49350C00533617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31983B671D49350C00533617 /* LaunchScreen.storyboard */; };
 		31983B741D49350C00533617 /* ManagerCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31983B731D49350C00533617 /* ManagerCardTests.m */; };
 		31983B7F1D49350C00533617 /* ManagerCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31983B7E1D49350C00533617 /* ManagerCardUITests.m */; };
+		31C145F21D512E2000C2AF61 /* MCRegisterRequestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C145F11D512E2000C2AF61 /* MCRegisterRequestVC.m */; };
+		31C145F51D52779300C2AF61 /* MCLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C145F41D52779300C2AF61 /* MCLoginView.m */; };
+		31C145F81D5277B500C2AF61 /* MCRegisterRequestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C145F71D5277B500C2AF61 /* MCRegisterRequestView.m */; };
+		31C145FB1D5277EB00C2AF61 /* MCTermsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C145FA1D5277EB00C2AF61 /* MCTermsView.m */; };
+		31C145FE1D537E2700C2AF61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C145FC1D537E2700C2AF61 /* Main.storyboard */; };
+		3B9DDEA118AF9767DACE06F1 /* libPods-ManagerCardTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC6D8569CDB35C0E09177C3 /* libPods-ManagerCardTests.a */; };
+		D8622042C5C6AD229AD75610 /* libPods-ManagerCardUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE162783AC10BC6285A39B8 /* libPods-ManagerCardUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +75,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		039A61C0DFF2CF6FDB018C76 /* Pods-ManagerCardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManagerCardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManagerCardUITests/Pods-ManagerCardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23348426E42421105A5C347D /* Pods-ManagerCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManagerCardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ManagerCardUITests/Pods-ManagerCardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		24976A2707078618D8728BF0 /* libPods-ManagerCard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ManagerCard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE1B9563A9306992EBACAE8 /* Pods-ManagerCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManagerCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-ManagerCard/Pods-ManagerCard.release.xcconfig"; sourceTree = "<group>"; };
+		312C1F5A1D4F886E0029F3E8 /* SF-Compact-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Display-Black.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Display-Black.otf"; sourceTree = "<group>"; };
+		312C1F5B1D4F886E0029F3E8 /* SF-Compact-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Display-Bold.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Display-Bold.otf"; sourceTree = "<group>"; };
+		312C1F5C1D4F886E0029F3E8 /* SF-Compact-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Display-Heavy.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Display-Heavy.otf"; sourceTree = "<group>"; };
+		312C1F5D1D4F886E0029F3E8 /* SF-Compact-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Display-Light.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Display-Light.otf"; sourceTree = "<group>"; };
+		312C1F5E1D4F886E0029F3E8 /* SF-Compact-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Display-Medium.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Display-Medium.otf"; sourceTree = "<group>"; };
+		312C1F5F1D4F886E0029F3E8 /* SF-Compact-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Display-Regular.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Display-Regular.otf"; sourceTree = "<group>"; };
+		312C1F601D4F886E0029F3E8 /* SF-Compact-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Display-Semibold.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Display-Semibold.otf"; sourceTree = "<group>"; };
+		312C1F611D4F886E0029F3E8 /* SF-Compact-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Display-Thin.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Display-Thin.otf"; sourceTree = "<group>"; };
+		312C1F621D4F886E0029F3E8 /* SF-Compact-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Display-Ultralight.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		312C1F631D4F886E0029F3E8 /* SF-Compact-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-Bold.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Text-Bold.otf"; sourceTree = "<group>"; };
+		312C1F641D4F886E0029F3E8 /* SF-Compact-Text-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-BoldItalic.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Text-BoldItalic.otf"; sourceTree = "<group>"; };
+		312C1F651D4F886E0029F3E8 /* SF-Compact-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-Heavy.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Text-Heavy.otf"; sourceTree = "<group>"; };
+		312C1F661D4F886E0029F3E8 /* SF-Compact-Text-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-HeavyItalic.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+		312C1F671D4F886E0029F3E8 /* SF-Compact-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-Light.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Text-Light.otf"; sourceTree = "<group>"; };
+		312C1F681D4F886E0029F3E8 /* SF-Compact-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-LightItalic.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		312C1F691D4F886E0029F3E8 /* SF-Compact-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-Medium.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Text-Medium.otf"; sourceTree = "<group>"; };
+		312C1F6A1D4F886E0029F3E8 /* SF-Compact-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-MediumItalic.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Text-MediumItalic.otf"; sourceTree = "<group>"; };
+		312C1F6B1D4F886E0029F3E8 /* SF-Compact-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-Regular.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Text-Regular.otf"; sourceTree = "<group>"; };
+		312C1F6C1D4F886E0029F3E8 /* SF-Compact-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-RegularItalic.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		312C1F6D1D4F886E0029F3E8 /* SF-Compact-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-Semibold.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Text-Semibold.otf"; sourceTree = "<group>"; };
+		312C1F6E1D4F886E0029F3E8 /* SF-Compact-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-SemiboldItalic.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		312C1F881D4F8D960029F3E8 /* UITextField+EmailTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+EmailTextField.h"; sourceTree = "<group>"; };
+		312C1F891D4F8D960029F3E8 /* UITextField+EmailTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+EmailTextField.m"; sourceTree = "<group>"; };
+		313FCDF41D53AC5A000F1CE4 /* MCLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLoginManager.h; sourceTree = "<group>"; };
+		313FCDF51D53AC5A000F1CE4 /* MCLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCLoginManager.m; sourceTree = "<group>"; };
+		313FCDFA1D53CC15000F1CE4 /* MCLoginBussines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLoginBussines.h; sourceTree = "<group>"; };
+		313FCDFB1D53CC15000F1CE4 /* MCLoginBussines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCLoginBussines.m; sourceTree = "<group>"; };
+		313FCDFD1D53CC29000F1CE4 /* MCLoginProvider+User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCLoginProvider+User.h"; sourceTree = "<group>"; };
+		313FCDFE1D53CC29000F1CE4 /* MCLoginProvider+User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MCLoginProvider+User.m"; sourceTree = "<group>"; };
+		3157A4321D5E3DFA003AE7FC /* MCRegisterRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRegisterRequestManager.h; sourceTree = "<group>"; };
+		3157A4331D5E3DFA003AE7FC /* MCRegisterRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCRegisterRequestManager.m; sourceTree = "<group>"; };
+		3157A4381D5E3FB6003AE7FC /* MCEthernetBussines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCEthernetBussines.h; sourceTree = "<group>"; };
+		3157A4391D5E3FB6003AE7FC /* MCEthernetBussines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCEthernetBussines.m; sourceTree = "<group>"; };
+		3166A5E41D5DF75F001C1D8D /* UIEmailValidateField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIEmailValidateField.h; path = Source/View/UIEmailValidateField.h; sourceTree = "<group>"; };
+		3166A5E51D5DF75F001C1D8D /* UIEmailValidateField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIEmailValidateField.m; path = Source/View/UIEmailValidateField.m; sourceTree = "<group>"; };
+		3166A5E81D5E0429001C1D8D /* UINomeValidateField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINomeValidateField.h; sourceTree = "<group>"; };
+		3166A5E91D5E0429001C1D8D /* UINomeValidateField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINomeValidateField.m; sourceTree = "<group>"; };
+		3166A5EB1D5E0A0D001C1D8D /* UICardValidateField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICardValidateField.h; sourceTree = "<group>"; };
+		3166A5EC1D5E0A0D001C1D8D /* UICardValidateField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICardValidateField.m; sourceTree = "<group>"; };
+		3166A5EE1D5E0D1C001C1D8D /* UICellPhoneValidateField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICellPhoneValidateField.h; sourceTree = "<group>"; };
+		3166A5EF1D5E0D1C001C1D8D /* UICellPhoneValidateField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICellPhoneValidateField.m; sourceTree = "<group>"; };
+		318E660B1D54BA5E006014E4 /* MCUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCUserModel.h; sourceTree = "<group>"; };
+		318E660C1D54BA5E006014E4 /* MCUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCUserModel.m; sourceTree = "<group>"; };
+		318E66101D58B587006014E4 /* MCLoginProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLoginProvider.h; sourceTree = "<group>"; };
+		318E66111D58B587006014E4 /* MCLoginProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCLoginProvider.m; sourceTree = "<group>"; };
 		31983B561D49350C00533617 /* ManagerCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManagerCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31983B5A1D49350C00533617 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31983B5C1D49350C00533617 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		31983B5D1D49350C00533617 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		31983B5F1D49350C00533617 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		31983B601D49350C00533617 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		31983B631D49350C00533617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31983B651D49350C00533617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31983B681D49350C00533617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31983B6A1D49350C00533617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +139,20 @@
 		31983B7A1D49350C00533617 /* ManagerCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManagerCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31983B7E1D49350C00533617 /* ManagerCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerCardUITests.m; sourceTree = "<group>"; };
 		31983B801D49350C00533617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C145F01D512E2000C2AF61 /* MCRegisterRequestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRegisterRequestVC.h; sourceTree = "<group>"; };
+		31C145F11D512E2000C2AF61 /* MCRegisterRequestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCRegisterRequestVC.m; sourceTree = "<group>"; };
+		31C145F31D52779300C2AF61 /* MCLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLoginView.h; sourceTree = "<group>"; };
+		31C145F41D52779300C2AF61 /* MCLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCLoginView.m; sourceTree = "<group>"; };
+		31C145F61D5277B500C2AF61 /* MCRegisterRequestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRegisterRequestView.h; sourceTree = "<group>"; };
+		31C145F71D5277B500C2AF61 /* MCRegisterRequestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCRegisterRequestView.m; sourceTree = "<group>"; };
+		31C145F91D5277EB00C2AF61 /* MCTermsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTermsView.h; sourceTree = "<group>"; };
+		31C145FA1D5277EB00C2AF61 /* MCTermsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTermsView.m; sourceTree = "<group>"; };
+		31C145FD1D537E2700C2AF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EE162783AC10BC6285A39B8 /* libPods-ManagerCardUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ManagerCardUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22661D0F6E1DBDA497B9A90 /* Pods-ManagerCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManagerCardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ManagerCardTests/Pods-ManagerCardTests.release.xcconfig"; sourceTree = "<group>"; };
+		A67BE39F86D92F038576E064 /* Pods-ManagerCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManagerCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManagerCard/Pods-ManagerCard.debug.xcconfig"; sourceTree = "<group>"; };
+		CDC6D8569CDB35C0E09177C3 /* libPods-ManagerCardTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ManagerCardTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E649BCB181D40F6071A3AF34 /* Pods-ManagerCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManagerCardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ManagerCardTests/Pods-ManagerCardTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DB64D0AED81FAADA205D27 /* libPods-ManagerCard.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B9DDEA118AF9767DACE06F1 /* libPods-ManagerCardTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +176,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8622042C5C6AD229AD75610 /* libPods-ManagerCardUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		222EB89423532BF7AE0D0E0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24976A2707078618D8728BF0 /* libPods-ManagerCard.a */,
+				CDC6D8569CDB35C0E09177C3 /* libPods-ManagerCardTests.a */,
+				9EE162783AC10BC6285A39B8 /* libPods-ManagerCardUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		312C1F591D4F88520029F3E8 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				312C1F5A1D4F886E0029F3E8 /* SF-Compact-Display-Black.otf */,
+				312C1F5B1D4F886E0029F3E8 /* SF-Compact-Display-Bold.otf */,
+				312C1F5C1D4F886E0029F3E8 /* SF-Compact-Display-Heavy.otf */,
+				312C1F5D1D4F886E0029F3E8 /* SF-Compact-Display-Light.otf */,
+				312C1F5E1D4F886E0029F3E8 /* SF-Compact-Display-Medium.otf */,
+				312C1F5F1D4F886E0029F3E8 /* SF-Compact-Display-Regular.otf */,
+				312C1F601D4F886E0029F3E8 /* SF-Compact-Display-Semibold.otf */,
+				312C1F611D4F886E0029F3E8 /* SF-Compact-Display-Thin.otf */,
+				312C1F621D4F886E0029F3E8 /* SF-Compact-Display-Ultralight.otf */,
+				312C1F631D4F886E0029F3E8 /* SF-Compact-Text-Bold.otf */,
+				312C1F641D4F886E0029F3E8 /* SF-Compact-Text-BoldItalic.otf */,
+				312C1F651D4F886E0029F3E8 /* SF-Compact-Text-Heavy.otf */,
+				312C1F661D4F886E0029F3E8 /* SF-Compact-Text-HeavyItalic.otf */,
+				312C1F671D4F886E0029F3E8 /* SF-Compact-Text-Light.otf */,
+				312C1F681D4F886E0029F3E8 /* SF-Compact-Text-LightItalic.otf */,
+				312C1F691D4F886E0029F3E8 /* SF-Compact-Text-Medium.otf */,
+				312C1F6A1D4F886E0029F3E8 /* SF-Compact-Text-MediumItalic.otf */,
+				312C1F6B1D4F886E0029F3E8 /* SF-Compact-Text-Regular.otf */,
+				312C1F6C1D4F886E0029F3E8 /* SF-Compact-Text-RegularItalic.otf */,
+				312C1F6D1D4F886E0029F3E8 /* SF-Compact-Text-Semibold.otf */,
+				312C1F6E1D4F886E0029F3E8 /* SF-Compact-Text-SemiboldItalic.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		312C1F841D4F8C280029F3E8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				312C1F881D4F8D960029F3E8 /* UITextField+EmailTextField.h */,
+				312C1F891D4F8D960029F3E8 /* UITextField+EmailTextField.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		3166A5E71D5E0407001C1D8D /* Fields */ = {
+			isa = PBXGroup;
+			children = (
+				3166A5E41D5DF75F001C1D8D /* UIEmailValidateField.h */,
+				3166A5E51D5DF75F001C1D8D /* UIEmailValidateField.m */,
+				3166A5E81D5E0429001C1D8D /* UINomeValidateField.h */,
+				3166A5E91D5E0429001C1D8D /* UINomeValidateField.m */,
+				3166A5EB1D5E0A0D001C1D8D /* UICardValidateField.h */,
+				3166A5EC1D5E0A0D001C1D8D /* UICardValidateField.m */,
+				3166A5EE1D5E0D1C001C1D8D /* UICellPhoneValidateField.h */,
+				3166A5EF1D5E0D1C001C1D8D /* UICellPhoneValidateField.m */,
+			);
+			name = Fields;
+			sourceTree = "<group>";
+		};
+		318E660E1D58B563006014E4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				318E66101D58B587006014E4 /* MCLoginProvider.h */,
+				318E66111D58B587006014E4 /* MCLoginProvider.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		318E660F1D58B570006014E4 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				313FCDFD1D53CC29000F1CE4 /* MCLoginProvider+User.h */,
+				313FCDFE1D53CC29000F1CE4 /* MCLoginProvider+User.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
 		31983B4D1D49350C00533617 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +270,8 @@
 				31983B721D49350C00533617 /* ManagerCardTests */,
 				31983B7D1D49350C00533617 /* ManagerCardUITests */,
 				31983B571D49350C00533617 /* Products */,
+				80D944714E1107E53AFB768B /* Pods */,
+				222EB89423532BF7AE0D0E0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +327,7 @@
 		31983B8C1D49359800533617 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				3166A5E71D5E0407001C1D8D /* Fields */,
 				31983B8E1D4935F100533617 /* View */,
 				31983B8F1D4935F700533617 /* Controller */,
 				31983B901D4935FD00533617 /* Manager */,
@@ -153,6 +341,8 @@
 		31983B8D1D4935A400533617 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				312C1F841D4F8C280029F3E8 /* Category */,
+				312C1F591D4F88520029F3E8 /* Font */,
 				31983B951D49369400533617 /* Storyboards */,
 				31983B651D49350C00533617 /* Assets.xcassets */,
 			);
@@ -162,6 +352,12 @@
 		31983B8E1D4935F100533617 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				31C145F31D52779300C2AF61 /* MCLoginView.h */,
+				31C145F41D52779300C2AF61 /* MCLoginView.m */,
+				31C145F61D5277B500C2AF61 /* MCRegisterRequestView.h */,
+				31C145F71D5277B500C2AF61 /* MCRegisterRequestView.m */,
+				31C145F91D5277EB00C2AF61 /* MCTermsView.h */,
+				31C145FA1D5277EB00C2AF61 /* MCTermsView.m */,
 			);
 			name = View;
 			path = Source/View;
@@ -172,6 +368,8 @@
 			children = (
 				31983B5F1D49350C00533617 /* ViewController.h */,
 				31983B601D49350C00533617 /* ViewController.m */,
+				31C145F01D512E2000C2AF61 /* MCRegisterRequestVC.h */,
+				31C145F11D512E2000C2AF61 /* MCRegisterRequestVC.m */,
 			);
 			name = Controller;
 			path = Source/Controller;
@@ -180,6 +378,10 @@
 		31983B901D4935FD00533617 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				313FCDF41D53AC5A000F1CE4 /* MCLoginManager.h */,
+				313FCDF51D53AC5A000F1CE4 /* MCLoginManager.m */,
+				3157A4321D5E3DFA003AE7FC /* MCRegisterRequestManager.h */,
+				3157A4331D5E3DFA003AE7FC /* MCRegisterRequestManager.m */,
 			);
 			name = Manager;
 			path = Source/Manager;
@@ -188,6 +390,10 @@
 		31983B911D49360B00533617 /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				313FCDFA1D53CC15000F1CE4 /* MCLoginBussines.h */,
+				313FCDFB1D53CC15000F1CE4 /* MCLoginBussines.m */,
+				3157A4381D5E3FB6003AE7FC /* MCEthernetBussines.h */,
+				3157A4391D5E3FB6003AE7FC /* MCEthernetBussines.m */,
 			);
 			name = Business;
 			path = Source/Business;
@@ -196,6 +402,8 @@
 		31983B921D49362100533617 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				318E660B1D54BA5E006014E4 /* MCUserModel.h */,
+				318E660C1D54BA5E006014E4 /* MCUserModel.m */,
 			);
 			name = Model;
 			path = Source/Model;
@@ -204,6 +412,8 @@
 		31983B931D49362800533617 /* Provider */ = {
 			isa = PBXGroup;
 			children = (
+				318E660E1D58B563006014E4 /* Service */,
+				318E660F1D58B570006014E4 /* User */,
 			);
 			name = Provider;
 			path = Source/Provider;
@@ -212,6 +422,8 @@
 		31983B941D49368F00533617 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				31C145FC1D537E2700C2AF61 /* Main.storyboard */,
+				31983B671D49350C00533617 /* LaunchScreen.storyboard */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -220,10 +432,21 @@
 			isa = PBXGroup;
 			children = (
 				31983B941D49368F00533617 /* Login */,
-				31983B621D49350C00533617 /* Main.storyboard */,
-				31983B671D49350C00533617 /* LaunchScreen.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		80D944714E1107E53AFB768B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A67BE39F86D92F038576E064 /* Pods-ManagerCard.debug.xcconfig */,
+				2BE1B9563A9306992EBACAE8 /* Pods-ManagerCard.release.xcconfig */,
+				E649BCB181D40F6071A3AF34 /* Pods-ManagerCardTests.debug.xcconfig */,
+				A22661D0F6E1DBDA497B9A90 /* Pods-ManagerCardTests.release.xcconfig */,
+				039A61C0DFF2CF6FDB018C76 /* Pods-ManagerCardUITests.debug.xcconfig */,
+				23348426E42421105A5C347D /* Pods-ManagerCardUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +456,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31983B831D49350C00533617 /* Build configuration list for PBXNativeTarget "ManagerCard" */;
 			buildPhases = (
+				CA5ACCDD6918EB904BE7A6D8 /* [CP] Check Pods Manifest.lock */,
 				31983B521D49350C00533617 /* Sources */,
 				31983B531D49350C00533617 /* Frameworks */,
 				31983B541D49350C00533617 /* Resources */,
+				50B2333CA4AD9F38AF26BF7D /* [CP] Embed Pods Frameworks */,
+				660F8D6AAA9CD1C14A8F95C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,9 +476,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31983B861D49350C00533617 /* Build configuration list for PBXNativeTarget "ManagerCardTests" */;
 			buildPhases = (
+				09B306F6777F7743F9D9C207 /* [CP] Check Pods Manifest.lock */,
 				31983B6B1D49350C00533617 /* Sources */,
 				31983B6C1D49350C00533617 /* Frameworks */,
 				31983B6D1D49350C00533617 /* Resources */,
+				CCD3C51FAB3598851339DAB4 /* [CP] Embed Pods Frameworks */,
+				FCCCF3050978B2B8612E5928 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,9 +497,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31983B891D49350C00533617 /* Build configuration list for PBXNativeTarget "ManagerCardUITests" */;
 			buildPhases = (
+				14570C44ADAFF15D2F477BC2 /* [CP] Check Pods Manifest.lock */,
 				31983B761D49350C00533617 /* Sources */,
 				31983B771D49350C00533617 /* Frameworks */,
 				31983B781D49350C00533617 /* Resources */,
+				08CEC805C9A8C350F4781951 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,6 +524,7 @@
 				TargetAttributes = {
 					31983B551D49350C00533617 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RVHJAJ9YPS;
 					};
 					31983B6E1D49350C00533617 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -329,9 +561,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				312C1F791D4F886E0029F3E8 /* SF-Compact-Text-BoldItalic.otf in Resources */,
+				312C1F721D4F886E0029F3E8 /* SF-Compact-Display-Light.otf in Resources */,
+				312C1F761D4F886E0029F3E8 /* SF-Compact-Display-Thin.otf in Resources */,
+				31C145FE1D537E2700C2AF61 /* Main.storyboard in Resources */,
 				31983B691D49350C00533617 /* LaunchScreen.storyboard in Resources */,
+				312C1F801D4F886E0029F3E8 /* SF-Compact-Text-Regular.otf in Resources */,
+				312C1F7D1D4F886E0029F3E8 /* SF-Compact-Text-LightItalic.otf in Resources */,
+				312C1F731D4F886E0029F3E8 /* SF-Compact-Display-Medium.otf in Resources */,
+				312C1F7B1D4F886E0029F3E8 /* SF-Compact-Text-HeavyItalic.otf in Resources */,
+				312C1F711D4F886E0029F3E8 /* SF-Compact-Display-Heavy.otf in Resources */,
+				312C1F7C1D4F886E0029F3E8 /* SF-Compact-Text-Light.otf in Resources */,
+				312C1F831D4F886E0029F3E8 /* SF-Compact-Text-SemiboldItalic.otf in Resources */,
+				312C1F781D4F886E0029F3E8 /* SF-Compact-Text-Bold.otf in Resources */,
+				312C1F751D4F886E0029F3E8 /* SF-Compact-Display-Semibold.otf in Resources */,
+				312C1F821D4F886E0029F3E8 /* SF-Compact-Text-Semibold.otf in Resources */,
+				312C1F6F1D4F886E0029F3E8 /* SF-Compact-Display-Black.otf in Resources */,
+				312C1F771D4F886E0029F3E8 /* SF-Compact-Display-Ultralight.otf in Resources */,
+				312C1F741D4F886E0029F3E8 /* SF-Compact-Display-Regular.otf in Resources */,
+				312C1F7E1D4F886E0029F3E8 /* SF-Compact-Text-Medium.otf in Resources */,
 				31983B661D49350C00533617 /* Assets.xcassets in Resources */,
-				31983B641D49350C00533617 /* Main.storyboard in Resources */,
+				312C1F7F1D4F886E0029F3E8 /* SF-Compact-Text-MediumItalic.otf in Resources */,
+				312C1F701D4F886E0029F3E8 /* SF-Compact-Display-Bold.otf in Resources */,
+				312C1F7A1D4F886E0029F3E8 /* SF-Compact-Text-Heavy.otf in Resources */,
+				312C1F811D4F886E0029F3E8 /* SF-Compact-Text-RegularItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,14 +604,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08CEC805C9A8C350F4781951 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ManagerCardUITests/Pods-ManagerCardUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09B306F6777F7743F9D9C207 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		14570C44ADAFF15D2F477BC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50B2333CA4AD9F38AF26BF7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ManagerCard/Pods-ManagerCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		660F8D6AAA9CD1C14A8F95C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ManagerCard/Pods-ManagerCard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA5ACCDD6918EB904BE7A6D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCD3C51FAB3598851339DAB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ManagerCardTests/Pods-ManagerCardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCCCF3050978B2B8612E5928 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ManagerCardTests/Pods-ManagerCardTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31983B521D49350C00533617 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				313FCDFF1D53CC29000F1CE4 /* MCLoginProvider+User.m in Sources */,
+				318E660D1D54BA5E006014E4 /* MCUserModel.m in Sources */,
+				3157A4341D5E3DFA003AE7FC /* MCRegisterRequestManager.m in Sources */,
+				313FCDFC1D53CC15000F1CE4 /* MCLoginBussines.m in Sources */,
+				318E66121D58B587006014E4 /* MCLoginProvider.m in Sources */,
+				31C145F51D52779300C2AF61 /* MCLoginView.m in Sources */,
+				313FCDF61D53AC5A000F1CE4 /* MCLoginManager.m in Sources */,
+				31C145F81D5277B500C2AF61 /* MCRegisterRequestView.m in Sources */,
+				3166A5ED1D5E0A0D001C1D8D /* UICardValidateField.m in Sources */,
+				31C145F21D512E2000C2AF61 /* MCRegisterRequestVC.m in Sources */,
 				31983B611D49350C00533617 /* ViewController.m in Sources */,
 				31983B5E1D49350C00533617 /* AppDelegate.m in Sources */,
+				3166A5EA1D5E0429001C1D8D /* UINomeValidateField.m in Sources */,
+				312C1F8A1D4F8D960029F3E8 /* UITextField+EmailTextField.m in Sources */,
+				3157A43A1D5E3FB6003AE7FC /* MCEthernetBussines.m in Sources */,
+				31C145FB1D5277EB00C2AF61 /* MCTermsView.m in Sources */,
 				31983B5B1D49350C00533617 /* main.m in Sources */,
+				3166A5F01D5E0D1C001C1D8D /* UICellPhoneValidateField.m in Sources */,
+				3166A5E61D5DF75F001C1D8D /* UIEmailValidateField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,20 +786,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		31983B621D49350C00533617 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				31983B631D49350C00533617 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		31983B671D49350C00533617 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				31983B681D49350C00533617 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		31C145FC1D537E2700C2AF61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31C145FD1D537E2700C2AF61 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -499,28 +891,37 @@
 		};
 		31983B841D49350C00533617 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A67BE39F86D92F038576E064 /* Pods-ManagerCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ManagerCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CIT.ManagerCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		31983B851D49350C00533617 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE1B9563A9306992EBACAE8 /* Pods-ManagerCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ManagerCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CIT.ManagerCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		31983B871D49350C00533617 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E649BCB181D40F6071A3AF34 /* Pods-ManagerCardTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ManagerCardTests/Info.plist;
@@ -533,6 +934,7 @@
 		};
 		31983B881D49350C00533617 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22661D0F6E1DBDA497B9A90 /* Pods-ManagerCardTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ManagerCardTests/Info.plist;
@@ -545,6 +947,7 @@
 		};
 		31983B8A1D49350C00533617 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 039A61C0DFF2CF6FDB018C76 /* Pods-ManagerCardUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ManagerCardUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -556,6 +959,7 @@
 		};
 		31983B8B1D49350C00533617 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23348426E42421105A5C347D /* Pods-ManagerCardUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ManagerCardUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
