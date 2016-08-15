@@ -15,6 +15,7 @@
 
 @property (strong, nonatomic) MCRegisterRequestView *registerView;
 @property (strong, nonatomic) MCRegisterRequestManager *registerManager;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *loadingRegister;
 
 - (IBAction)scanCard:(id)sender;
 @end

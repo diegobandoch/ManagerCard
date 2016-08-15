@@ -31,10 +31,10 @@
                         <viewControllerLayoutGuide type="bottom" id="6d6-jw-PUV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ebE-JO-qxY" customClass="MCLoginView">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgSplash" translatesAutoresizingMaskIntoConstraints="NO" id="hWJ-YW-Y3k">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="imgSplash" translatesAutoresizingMaskIntoConstraints="NO" id="hWJ-YW-Y3k">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <gestureRecognizers/>
                                 <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
@@ -57,21 +57,21 @@
                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 </variation>
                             </textField>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ok7-5s-kII" userLabel="lineSenha">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ok7-5s-kII" userLabel="lineSenha">
                                 <rect key="frame" x="24" y="348" width="328" height="2"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="2" id="6uh-G0-sFg"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kfD-1k-bT5" userLabel="lineEmail">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kfD-1k-bT5" userLabel="lineEmail">
                                 <rect key="frame" x="24" y="280" width="328" height="2"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="2" id="KXF-wy-XsM"/>
                                 </constraints>
                             </view>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="SENHA" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="46f-Fq-zwz">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="SENHA" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="46f-Fq-zwz">
                                 <rect key="frame" x="24" y="310" width="328" height="48"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -81,7 +81,7 @@
                                 <fontDescription key="fontDescription" name="SFCompactText-Regular" family="SF Compact Text" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvt-WZ-e92" colorLabel="IBBuiltInLabel-Yellow">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvt-WZ-e92" colorLabel="IBBuiltInLabel-Yellow">
                                 <rect key="frame" x="24" y="398" width="327" height="44"/>
                                 <color key="backgroundColor" red="1" green="0.40668666584258362" blue="0.058946171537415659" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -97,7 +97,7 @@
                                     <action selector="submitButtonLogin:" destination="9fz-Ji-hkO" eventType="touchUpInside" id="qqB-Mq-jYY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jh5-XN-rhR">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jh5-XN-rhR">
                                 <rect key="frame" x="24" y="519" width="327" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="lqn-Yo-eez"/>
@@ -161,16 +161,16 @@
             </objects>
             <point key="canvasLocation" x="3234.5" y="201.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="DDD-57-oX1">
             <objects>
-                <viewController id="jOt-1a-FAP" sceneMemberID="viewController">
+                <viewController id="jOt-1a-FAP" customClass="MCMainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Z2z-ol-U59"/>
                         <viewControllerLayoutGuide type="bottom" id="j1g-b7-5Nh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kLU-eA-GNj">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -190,18 +190,18 @@
                         <viewControllerLayoutGuide type="bottom" id="NsJ-Pz-Bh5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3dY-Ho-zT5" userLabel="RequestView" customClass="MCRegisterRequestView">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yfo-lx-B9Y" userLabel="lineCelular">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yfo-lx-B9Y" userLabel="lineCelular">
                                 <rect key="frame" x="24" y="194" width="327" height="2"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Obg-AE-gjr" userLabel="lineCartao">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Obg-AE-gjr" userLabel="lineCartao">
                                 <rect key="frame" x="24" y="262" width="327" height="2"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="EMAIL" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UKh-ln-0Lq" userLabel="EMAIL" customClass="UIEmailValidateField">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="EMAIL" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UKh-ln-0Lq" userLabel="EMAIL" customClass="UIEmailValidateField">
                                 <rect key="frame" x="24" y="88" width="327" height="48"/>
                                 <color key="tintColor" red="1" green="0.47058823529999999" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -214,7 +214,7 @@
                                     <fontDescription key="fontDescription" name="SFCompactText-Medium" family="SF Compact Text" pointSize="14"/>
                                 </variation>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2Y-jl-Rm2" colorLabel="IBBuiltInLabel-Yellow">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2Y-jl-Rm2" colorLabel="IBBuiltInLabel-Yellow">
                                 <rect key="frame" x="24" y="539" width="327" height="44"/>
                                 <color key="backgroundColor" red="1" green="0.40668666580000001" blue="0.058946171540000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -230,7 +230,7 @@
                                     <action selector="tapRegisterRequest:" destination="PWO-Oz-f3r" eventType="touchUpInside" id="gil-Ei-76w"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="NOME" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LRx-Pg-wKu" userLabel="NOME" customClass="UINomeValidateField">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="NOME" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LRx-Pg-wKu" userLabel="NOME" customClass="UINomeValidateField">
                                 <rect key="frame" x="24" y="20" width="327" height="48"/>
                                 <color key="tintColor" red="1" green="0.47058823529999999" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -243,15 +243,15 @@
                                     <fontDescription key="fontDescription" name="SFCompactText-Medium" family="SF Compact Text" pointSize="14"/>
                                 </variation>
                             </textField>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rFA-ab-6lE" userLabel="lineNome">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rFA-ab-6lE" userLabel="lineNome">
                                 <rect key="frame" x="24" y="58" width="327" height="2"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bgb-Ul-pKx" userLabel="lineEmail">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bgb-Ul-pKx" userLabel="lineEmail">
                                 <rect key="frame" x="24" y="126" width="327" height="2"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="NÚMERO DO CARTÃO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i8g-3U-TZ8" userLabel="N_CARTAO" customClass="UICardValidateField">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="NÚMERO DO CARTÃO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i8g-3U-TZ8" userLabel="N_CARTAO" customClass="UICardValidateField">
                                 <rect key="frame" x="24" y="225" width="327" height="48"/>
                                 <color key="tintColor" red="1" green="0.47058823529999999" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -264,7 +264,7 @@
                                     <fontDescription key="fontDescription" name="SFCompactText-Medium" family="SF Compact Text" pointSize="14"/>
                                 </variation>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFp-8m-5yk" colorLabel="IBBuiltInLabel-Yellow">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFp-8m-5yk" colorLabel="IBBuiltInLabel-Yellow">
                                 <rect key="frame" x="24" y="293" width="327" height="44"/>
                                 <color key="backgroundColor" red="1" green="0.40668666580000001" blue="0.058946171540000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -312,7 +312,7 @@
                                     <action selector="tapCheckboxTerms:" destination="3dY-Ho-zT5" eventType="touchUpInside" id="lwJ-59-GHo"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="NÚMERO DO CELULAR" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="otO-YS-R0d" userLabel="N_CELULAR" customClass="UICellPhoneValidateField">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="NÚMERO DO CELULAR" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="otO-YS-R0d" userLabel="N_CELULAR" customClass="UICellPhoneValidateField">
                                 <rect key="frame" x="24" y="156" width="327" height="48"/>
                                 <color key="tintColor" red="1" green="0.47058823529999999" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -325,6 +325,10 @@
                                     <fontDescription key="fontDescription" name="SFCompactText-Medium" family="SF Compact Text" pointSize="14"/>
                                 </variation>
                             </textField>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="j4k-sC-VTa">
+                                <rect key="frame" x="169" y="203" width="37" height="37"/>
+                                <color key="color" red="1" green="0.40668666580000001" blue="0.058946171540000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -376,12 +380,13 @@
                         </connections>
                     </view>
                     <connections>
-                        <segue destination="w4g-us-1zw" kind="show" identifier="registerRequestSegue" id="Exd-DB-shh"/>
+                        <outlet property="loadingRegister" destination="j4k-sC-VTa" id="nSx-d7-Rmm"/>
+                        <segue destination="9fz-Ji-hkO" kind="show" identifier="registerRequestSegue" id="f3T-i1-zyT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qCB-5z-4L5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3234.5" y="1132.5"/>
+            <point key="canvasLocation" x="2872.5" y="1093.5"/>
         </scene>
         <!--Termos de uso-->
         <scene sceneID="SpC-UF-ERT">
@@ -392,7 +397,7 @@
                         <viewControllerLayoutGuide type="bottom" id="bHO-ZQ-orc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ff7-Ek-pgG">
-                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8e2-Xo-xci">
@@ -414,26 +419,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wWO-tq-fji" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3741.5" y="917.5"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="3sg-rQ-u5F">
-            <objects>
-                <viewController id="w4g-us-1zw" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="fKO-16-U3u"/>
-                        <viewControllerLayoutGuide type="bottom" id="D2Z-cA-gtA"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="VKT-Y2-GXc">
-                        <rect key="frame" x="0.0" y="64" width="375" height="613"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="677"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KWr-8E-AfT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3741.5" y="1654.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="595-jG-jE8">
@@ -462,5 +447,8 @@
         <image name="emptyCheckBox" width="626" height="626"/>
         <image name="imgSplash" width="375" height="667"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="f3T-i1-zyT"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>

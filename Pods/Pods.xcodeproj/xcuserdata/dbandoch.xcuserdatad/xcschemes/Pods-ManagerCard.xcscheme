@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '76813F2F676059EF84D9C6C12E8F81AC'
+               BlueprintIdentifier = '619A5B2974FF9209F6FA551A71227583'
                BlueprintName = 'Pods-ManagerCard'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-ManagerCard.a'>

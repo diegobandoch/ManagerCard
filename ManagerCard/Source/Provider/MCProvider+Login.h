@@ -6,9 +6,9 @@
 //  Copyright © 2016 CIT. All rights reserved.
 //
 
-#import "MCLoginProvider.h"
+#import "MCProvider.h"
 
-@interface MCLoginProvider (User)
+@interface MCProvider (Login)
 
 - (void)login:(NSString *)email withPassword:(NSString *)senha success:(ICRequestOperationBlockSuccess)success
       failure:(ICRequestOperationBlockFailure)failure;

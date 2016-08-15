@@ -5,6 +5,7 @@ target 'ManagerCard' do
 inherit! :search_paths 
 pod 'AFNetworking', '~> 3.0'
 pod 'CardIO'
+pod 'LGSideMenuController', '~> 1.0.0'
 end
  	
 

@@ -6,10 +6,10 @@
 //  Copyright © 2016 CIT. All rights reserved.
 //
 
-#import "MCLoginProvider+User.h"
+#import "MCProvider+Login.h"
 
 
-@implementation MCLoginProvider (User)
+@implementation MCProvider (Login)
 
 - (void)login:(NSString *)email
  withPassword:(NSString *)senha

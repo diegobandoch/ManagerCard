@@ -59,19 +59,19 @@
 - (IBAction)submitButtonLogin:(id)sender {
     [self.loginView.loading startAnimating];
 
-    if ([self.loginManager isEthernetConnected]){
-        [self dismissViewControllerAnimated:YES completion:nil];
-         [self.loginView.loading stopAnimating];
-        [self fatalAlert:@"não há conexão com a internet, por favor tente mais tarde."];
-        return;
-    }
-    
-    if (![self.loginView isValidFields]){
-        [self dismissViewControllerAnimated:YES completion:nil];
-        [self fatalAlert:@"campos inválidos, verifique e tente novamente"];
-         [self.loginView.loading stopAnimating];
-        return;
-    }
+//    if ([self.loginManager isEthernetConnected]){
+//        [self dismissViewControllerAnimated:YES completion:nil];
+//         [self.loginView.loading stopAnimating];
+//        [self fatalAlert:@"não há conexão com a internet, por favor tente mais tarde."];
+//        return;
+//    }
+//    
+//    if (![self.loginView isValidFields]){
+//        [self dismissViewControllerAnimated:YES completion:nil];
+//        [self fatalAlert:@"campos inválidos, verifique e tente novamente"];
+//         [self.loginView.loading stopAnimating];
+//        return;
+//    }
     
     typeof(self) __weak __block weakSelf = self;
     

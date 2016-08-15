@@ -30,9 +30,17 @@
 		312C1F821D4F886E0029F3E8 /* SF-Compact-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F6D1D4F886E0029F3E8 /* SF-Compact-Text-Semibold.otf */; };
 		312C1F831D4F886E0029F3E8 /* SF-Compact-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 312C1F6E1D4F886E0029F3E8 /* SF-Compact-Text-SemiboldItalic.otf */; };
 		312C1F8A1D4F8D960029F3E8 /* UITextField+EmailTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 312C1F891D4F8D960029F3E8 /* UITextField+EmailTextField.m */; };
+		312EC31E1D622EC000E486F7 /* MCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EC31D1D622EC000E486F7 /* MCMainViewController.m */; };
+		312EC3211D622F1C00E486F7 /* MCMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EC3201D622F1C00E486F7 /* MCMainView.m */; };
+		312EC3241D622F9A00E486F7 /* MCMainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EC3231D622F9A00E486F7 /* MCMainManager.m */; };
+		312EC3271D623CB900E486F7 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EC3261D623CB900E486F7 /* LeftViewController.m */; };
+		312EC32A1D623D3600E486F7 /* LeftViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EC3291D623D3600E486F7 /* LeftViewCell.m */; };
 		313FCDF61D53AC5A000F1CE4 /* MCLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 313FCDF51D53AC5A000F1CE4 /* MCLoginManager.m */; };
 		313FCDFC1D53CC15000F1CE4 /* MCLoginBussines.m in Sources */ = {isa = PBXBuildFile; fileRef = 313FCDFB1D53CC15000F1CE4 /* MCLoginBussines.m */; };
-		313FCDFF1D53CC29000F1CE4 /* MCLoginProvider+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 313FCDFE1D53CC29000F1CE4 /* MCLoginProvider+User.m */; };
+		313FCDFF1D53CC29000F1CE4 /* MCProvider+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 313FCDFE1D53CC29000F1CE4 /* MCProvider+Login.m */; };
+		3143BAFE1D61F79300AA063B /* MCProvider+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 3143BAFD1D61F79300AA063B /* MCProvider+Register.m */; };
+		3143BB011D61F95300AA063B /* MCRegisterBussines.m in Sources */ = {isa = PBXBuildFile; fileRef = 3143BB001D61F95300AA063B /* MCRegisterBussines.m */; };
+		3143BB041D61FA8B00AA063B /* MCRegisterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3143BB031D61FA8B00AA063B /* MCRegisterModel.m */; };
 		3157A4341D5E3DFA003AE7FC /* MCRegisterRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3157A4331D5E3DFA003AE7FC /* MCRegisterRequestManager.m */; };
 		3157A43A1D5E3FB6003AE7FC /* MCEthernetBussines.m in Sources */ = {isa = PBXBuildFile; fileRef = 3157A4391D5E3FB6003AE7FC /* MCEthernetBussines.m */; };
 		3166A5E61D5DF75F001C1D8D /* UIEmailValidateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166A5E51D5DF75F001C1D8D /* UIEmailValidateField.m */; };
@@ -40,7 +48,7 @@
 		3166A5ED1D5E0A0D001C1D8D /* UICardValidateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166A5EC1D5E0A0D001C1D8D /* UICardValidateField.m */; };
 		3166A5F01D5E0D1C001C1D8D /* UICellPhoneValidateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166A5EF1D5E0D1C001C1D8D /* UICellPhoneValidateField.m */; };
 		318E660D1D54BA5E006014E4 /* MCUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 318E660C1D54BA5E006014E4 /* MCUserModel.m */; };
-		318E66121D58B587006014E4 /* MCLoginProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 318E66111D58B587006014E4 /* MCLoginProvider.m */; };
+		318E66121D58B587006014E4 /* MCProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 318E66111D58B587006014E4 /* MCProvider.m */; };
 		31983B5B1D49350C00533617 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31983B5A1D49350C00533617 /* main.m */; };
 		31983B5E1D49350C00533617 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31983B5D1D49350C00533617 /* AppDelegate.m */; };
 		31983B611D49350C00533617 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31983B601D49350C00533617 /* ViewController.m */; };
@@ -102,12 +110,28 @@
 		312C1F6E1D4F886E0029F3E8 /* SF-Compact-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Text-SemiboldItalic.otf"; path = "../../../Downloads/SF-Compact/SF-Compact-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
 		312C1F881D4F8D960029F3E8 /* UITextField+EmailTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+EmailTextField.h"; sourceTree = "<group>"; };
 		312C1F891D4F8D960029F3E8 /* UITextField+EmailTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+EmailTextField.m"; sourceTree = "<group>"; };
+		312EC31C1D622EC000E486F7 /* MCMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMainViewController.h; sourceTree = "<group>"; };
+		312EC31D1D622EC000E486F7 /* MCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMainViewController.m; sourceTree = "<group>"; };
+		312EC31F1D622F1C00E486F7 /* MCMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMainView.h; sourceTree = "<group>"; };
+		312EC3201D622F1C00E486F7 /* MCMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMainView.m; sourceTree = "<group>"; };
+		312EC3221D622F9A00E486F7 /* MCMainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMainManager.h; sourceTree = "<group>"; };
+		312EC3231D622F9A00E486F7 /* MCMainManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMainManager.m; sourceTree = "<group>"; };
+		312EC3251D623CB900E486F7 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		312EC3261D623CB900E486F7 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		312EC3281D623D3600E486F7 /* LeftViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewCell.h; sourceTree = "<group>"; };
+		312EC3291D623D3600E486F7 /* LeftViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewCell.m; sourceTree = "<group>"; };
 		313FCDF41D53AC5A000F1CE4 /* MCLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLoginManager.h; sourceTree = "<group>"; };
 		313FCDF51D53AC5A000F1CE4 /* MCLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCLoginManager.m; sourceTree = "<group>"; };
 		313FCDFA1D53CC15000F1CE4 /* MCLoginBussines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLoginBussines.h; sourceTree = "<group>"; };
 		313FCDFB1D53CC15000F1CE4 /* MCLoginBussines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCLoginBussines.m; sourceTree = "<group>"; };
-		313FCDFD1D53CC29000F1CE4 /* MCLoginProvider+User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCLoginProvider+User.h"; sourceTree = "<group>"; };
-		313FCDFE1D53CC29000F1CE4 /* MCLoginProvider+User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MCLoginProvider+User.m"; sourceTree = "<group>"; };
+		313FCDFD1D53CC29000F1CE4 /* MCProvider+Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCProvider+Login.h"; sourceTree = "<group>"; };
+		313FCDFE1D53CC29000F1CE4 /* MCProvider+Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MCProvider+Login.m"; sourceTree = "<group>"; };
+		3143BAFC1D61F79300AA063B /* MCProvider+Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MCProvider+Register.h"; sourceTree = "<group>"; };
+		3143BAFD1D61F79300AA063B /* MCProvider+Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MCProvider+Register.m"; sourceTree = "<group>"; };
+		3143BAFF1D61F95300AA063B /* MCRegisterBussines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRegisterBussines.h; sourceTree = "<group>"; };
+		3143BB001D61F95300AA063B /* MCRegisterBussines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCRegisterBussines.m; sourceTree = "<group>"; };
+		3143BB021D61FA8B00AA063B /* MCRegisterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRegisterModel.h; sourceTree = "<group>"; };
+		3143BB031D61FA8B00AA063B /* MCRegisterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCRegisterModel.m; sourceTree = "<group>"; };
 		3157A4321D5E3DFA003AE7FC /* MCRegisterRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRegisterRequestManager.h; sourceTree = "<group>"; };
 		3157A4331D5E3DFA003AE7FC /* MCRegisterRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCRegisterRequestManager.m; sourceTree = "<group>"; };
 		3157A4381D5E3FB6003AE7FC /* MCEthernetBussines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCEthernetBussines.h; sourceTree = "<group>"; };
@@ -122,8 +146,8 @@
 		3166A5EF1D5E0D1C001C1D8D /* UICellPhoneValidateField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICellPhoneValidateField.m; sourceTree = "<group>"; };
 		318E660B1D54BA5E006014E4 /* MCUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCUserModel.h; sourceTree = "<group>"; };
 		318E660C1D54BA5E006014E4 /* MCUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCUserModel.m; sourceTree = "<group>"; };
-		318E66101D58B587006014E4 /* MCLoginProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLoginProvider.h; sourceTree = "<group>"; };
-		318E66111D58B587006014E4 /* MCLoginProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCLoginProvider.m; sourceTree = "<group>"; };
+		318E66101D58B587006014E4 /* MCProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCProvider.h; sourceTree = "<group>"; };
+		318E66111D58B587006014E4 /* MCProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCProvider.m; sourceTree = "<group>"; };
 		31983B561D49350C00533617 /* ManagerCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManagerCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31983B5A1D49350C00533617 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31983B5C1D49350C00533617 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -248,8 +272,8 @@
 		318E660E1D58B563006014E4 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				318E66101D58B587006014E4 /* MCLoginProvider.h */,
-				318E66111D58B587006014E4 /* MCLoginProvider.m */,
+				318E66101D58B587006014E4 /* MCProvider.h */,
+				318E66111D58B587006014E4 /* MCProvider.m */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -257,8 +281,10 @@
 		318E660F1D58B570006014E4 /* User */ = {
 			isa = PBXGroup;
 			children = (
-				313FCDFD1D53CC29000F1CE4 /* MCLoginProvider+User.h */,
-				313FCDFE1D53CC29000F1CE4 /* MCLoginProvider+User.m */,
+				313FCDFD1D53CC29000F1CE4 /* MCProvider+Login.h */,
+				313FCDFE1D53CC29000F1CE4 /* MCProvider+Login.m */,
+				3143BAFC1D61F79300AA063B /* MCProvider+Register.h */,
+				3143BAFD1D61F79300AA063B /* MCProvider+Register.m */,
 			);
 			name = User;
 			sourceTree = "<group>";
@@ -358,6 +384,8 @@
 				31C145F71D5277B500C2AF61 /* MCRegisterRequestView.m */,
 				31C145F91D5277EB00C2AF61 /* MCTermsView.h */,
 				31C145FA1D5277EB00C2AF61 /* MCTermsView.m */,
+				312EC31F1D622F1C00E486F7 /* MCMainView.h */,
+				312EC3201D622F1C00E486F7 /* MCMainView.m */,
 			);
 			name = View;
 			path = Source/View;
@@ -370,6 +398,12 @@
 				31983B601D49350C00533617 /* ViewController.m */,
 				31C145F01D512E2000C2AF61 /* MCRegisterRequestVC.h */,
 				31C145F11D512E2000C2AF61 /* MCRegisterRequestVC.m */,
+				312EC31C1D622EC000E486F7 /* MCMainViewController.h */,
+				312EC31D1D622EC000E486F7 /* MCMainViewController.m */,
+				312EC3251D623CB900E486F7 /* LeftViewController.h */,
+				312EC3261D623CB900E486F7 /* LeftViewController.m */,
+				312EC3281D623D3600E486F7 /* LeftViewCell.h */,
+				312EC3291D623D3600E486F7 /* LeftViewCell.m */,
 			);
 			name = Controller;
 			path = Source/Controller;
@@ -382,6 +416,8 @@
 				313FCDF51D53AC5A000F1CE4 /* MCLoginManager.m */,
 				3157A4321D5E3DFA003AE7FC /* MCRegisterRequestManager.h */,
 				3157A4331D5E3DFA003AE7FC /* MCRegisterRequestManager.m */,
+				312EC3221D622F9A00E486F7 /* MCMainManager.h */,
+				312EC3231D622F9A00E486F7 /* MCMainManager.m */,
 			);
 			name = Manager;
 			path = Source/Manager;
@@ -394,6 +430,8 @@
 				313FCDFB1D53CC15000F1CE4 /* MCLoginBussines.m */,
 				3157A4381D5E3FB6003AE7FC /* MCEthernetBussines.h */,
 				3157A4391D5E3FB6003AE7FC /* MCEthernetBussines.m */,
+				3143BAFF1D61F95300AA063B /* MCRegisterBussines.h */,
+				3143BB001D61F95300AA063B /* MCRegisterBussines.m */,
 			);
 			name = Business;
 			path = Source/Business;
@@ -404,6 +442,8 @@
 			children = (
 				318E660B1D54BA5E006014E4 /* MCUserModel.h */,
 				318E660C1D54BA5E006014E4 /* MCUserModel.m */,
+				3143BB021D61FA8B00AA063B /* MCRegisterModel.h */,
+				3143BB031D61FA8B00AA063B /* MCRegisterModel.m */,
 			);
 			name = Model;
 			path = Source/Model;
@@ -732,25 +772,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				313FCDFF1D53CC29000F1CE4 /* MCLoginProvider+User.m in Sources */,
+				313FCDFF1D53CC29000F1CE4 /* MCProvider+Login.m in Sources */,
 				318E660D1D54BA5E006014E4 /* MCUserModel.m in Sources */,
 				3157A4341D5E3DFA003AE7FC /* MCRegisterRequestManager.m in Sources */,
 				313FCDFC1D53CC15000F1CE4 /* MCLoginBussines.m in Sources */,
-				318E66121D58B587006014E4 /* MCLoginProvider.m in Sources */,
+				318E66121D58B587006014E4 /* MCProvider.m in Sources */,
 				31C145F51D52779300C2AF61 /* MCLoginView.m in Sources */,
+				3143BB041D61FA8B00AA063B /* MCRegisterModel.m in Sources */,
+				312EC31E1D622EC000E486F7 /* MCMainViewController.m in Sources */,
+				312EC3241D622F9A00E486F7 /* MCMainManager.m in Sources */,
 				313FCDF61D53AC5A000F1CE4 /* MCLoginManager.m in Sources */,
 				31C145F81D5277B500C2AF61 /* MCRegisterRequestView.m in Sources */,
+				312EC3271D623CB900E486F7 /* LeftViewController.m in Sources */,
 				3166A5ED1D5E0A0D001C1D8D /* UICardValidateField.m in Sources */,
 				31C145F21D512E2000C2AF61 /* MCRegisterRequestVC.m in Sources */,
 				31983B611D49350C00533617 /* ViewController.m in Sources */,
 				31983B5E1D49350C00533617 /* AppDelegate.m in Sources */,
 				3166A5EA1D5E0429001C1D8D /* UINomeValidateField.m in Sources */,
+				312EC3211D622F1C00E486F7 /* MCMainView.m in Sources */,
+				3143BB011D61F95300AA063B /* MCRegisterBussines.m in Sources */,
+				312EC32A1D623D3600E486F7 /* LeftViewCell.m in Sources */,
 				312C1F8A1D4F8D960029F3E8 /* UITextField+EmailTextField.m in Sources */,
 				3157A43A1D5E3FB6003AE7FC /* MCEthernetBussines.m in Sources */,
 				31C145FB1D5277EB00C2AF61 /* MCTermsView.m in Sources */,
 				31983B5B1D49350C00533617 /* main.m in Sources */,
 				3166A5F01D5E0D1C001C1D8D /* UICellPhoneValidateField.m in Sources */,
 				3166A5E61D5DF75F001C1D8D /* UIEmailValidateField.m in Sources */,
+				3143BAFE1D61F79300AA063B /* MCProvider+Register.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

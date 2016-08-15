@@ -7,7 +7,8 @@
 //
 
 #import "MCRegisterRequestVC.h"
-
+#import "MCRegisterModel.h"
+#import "MCRegisterRequestManager.h"
 
 @implementation MCRegisterRequestVC
 
@@ -15,7 +16,7 @@
     [super viewWillAppear:animated];
     [CardIOUtilities preload];
     self.registerView = (MCRegisterRequestView *)self.view;
-    
+    self.loadingRegister.hidden = YES;
     
 }
 
@@ -38,6 +39,8 @@
 
 - (IBAction)tapRegisterRequest:(id)sender {
     
+    [self.loadingRegister startAnimating];
+    
     if (![self.registerView isValidFields]){
         [self fatalAlert:@"Campos inválidos, verifique e tente novamente"];
         return;
@@ -47,8 +50,36 @@
         [self fatalAlert:@"Não há conexão com a internet, por favor tente mais tarde."];
         return;
     }
-       
-    [self performSegueWithIdentifier:@"registerRequestSegue" sender:nil];
+    
+    typeof(self) __weak __block weakSelf = self;
+    
+    MCRegisterModel *userModel = [[MCRegisterModel alloc] init];
+    userModel.name = self.registerView.nomeRegister.text;
+    userModel.email = self.registerView.emailRegister.text;
+    userModel.phoneNumber = self.registerView.celularRegister.text;
+    userModel.cardNumber = self.registerView.cartaoRegister.text;
+    
+    [self.registerManager registerUser:userModel
+         withCompletionBlock:^(NSString *result, NSError *error) { [weakSelf loginResponse:result error:error];
+         }];
+    
+    [self.loadingRegister stopAnimating];
+}
+
+-(MCRegisterRequestManager *)registerManager{
+    if (_registerManager == nil){
+        _registerManager = [[MCRegisterRequestManager alloc] init];
+    }
+    return _registerManager;
+}
+
+- (void)loginResponse:(NSString *)user error:(NSError *)error {
+    
+    if (error == nil) {
+        [self performSegueWithIdentifier:@"registerRequestSegue" sender:nil];
+    } else {
+        [self fatalAlert:[error localizedDescription]];
+    }
 }
 
 - (void)fatalAlert:(NSString *)msg{

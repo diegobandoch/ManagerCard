@@ -1,5 +1,5 @@
 #import "MCLoginBussines.h"
-#import "MCLoginProvider+User.h"
+#import "MCProvider+Login.h"
 #import "MCUserModel.h"
 
 
@@ -10,7 +10,7 @@
       success:(void(^)(MCUserModel *user))success
       failure:(void(^)(NSError *error))failure {
     
-    MCLoginProvider *sessionManager = [MCLoginProvider instanceHTTP];
+    MCProvider *sessionManager = [MCProvider instanceHTTP];
     
     [sessionManager login:email withPassword:senha success:^(NSURLSessionDataTask *task, id responseObject) {
         NSDictionary *resp = responseObject;
@@ -36,15 +36,13 @@
     [defaults synchronize];
 }
 
--(MCLoginProvider *) loginProvider{
+-(MCProvider *) loginProvider{
     if (_loginProvider == nil){
-        _loginProvider = [[MCLoginProvider alloc] init];
+        _loginProvider = [[MCProvider alloc] init];
     }
     return _loginProvider;
 }
 
--(BOOL)isEthernetConnected{
-    return [AFNetworkReachabilityManager sharedManager].reachable;
-}
+
 
 @end

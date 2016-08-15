@@ -11,7 +11,7 @@
 typedef void (^ICRequestOperationBlockSuccess) (NSURLSessionDataTask *task, id responseObject);
 typedef void (^ICRequestOperationBlockFailure) (NSError *error);
 
-@interface MCLoginProvider : AFHTTPSessionManager
+@interface MCProvider : AFHTTPSessionManager
 
 + (instancetype)instanceHTTP;
 

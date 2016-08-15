@@ -15,15 +15,18 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - CardIO (5.3.2)
+  - LGSideMenuController (1.0.10)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - CardIO
+  - LGSideMenuController (~> 1.0.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   CardIO: 92c45caef0d986c4a303a7afba0c9b76ff2b1f6e
+  LGSideMenuController: 8682bdbd0008c1acfbce95eaf96cc3657bca5f95
 
-PODFILE CHECKSUM: 8a323db5ab015d357f6c6edaa99facb9c99206b7
+PODFILE CHECKSUM: d13514fe75b8bf7c19d57dfcdd297f81c6a0fe6c
 
 COCOAPODS: 1.0.1

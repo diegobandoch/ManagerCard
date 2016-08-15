@@ -8,12 +8,18 @@
 
 #import <Foundation/Foundation.h>
 #import "MCEthernetBussines.h"
+#import "MCRegisterModel.h"
+#import "MCRegisterBussines.h"
 
 @interface MCRegisterRequestManager : NSObject
 
 @property (strong, nonatomic) MCEthernetBussines *ethernetBussines;
+@property (strong, nonatomic) MCRegisterBussines *registerBussines;
 @property (strong, nonatomic) NSOperationQueue *mainQueue;
 
 -(BOOL)isEthernetConnected;
+
+- (void)registerUser:(MCRegisterModel *)userModel
+withCompletionBlock:(void(^)(NSString *result, NSError *error))completion;
 
 @end
