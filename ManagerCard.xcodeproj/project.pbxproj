@@ -33,8 +33,8 @@
 		312EC31E1D622EC000E486F7 /* MCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EC31D1D622EC000E486F7 /* MCMainViewController.m */; };
 		312EC3211D622F1C00E486F7 /* MCMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EC3201D622F1C00E486F7 /* MCMainView.m */; };
 		312EC3241D622F9A00E486F7 /* MCMainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EC3231D622F9A00E486F7 /* MCMainManager.m */; };
-		312EC3271D623CB900E486F7 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EC3261D623CB900E486F7 /* LeftViewController.m */; };
-		312EC32A1D623D3600E486F7 /* LeftViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EC3291D623D3600E486F7 /* LeftViewCell.m */; };
+		312EC3441D63507F00E486F7 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EC3431D63507F00E486F7 /* TableViewController.m */; };
+		312EC3471D63515600E486F7 /* ChooseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EC3461D63515600E486F7 /* ChooseNavigationController.m */; };
 		313FCDF61D53AC5A000F1CE4 /* MCLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 313FCDF51D53AC5A000F1CE4 /* MCLoginManager.m */; };
 		313FCDFC1D53CC15000F1CE4 /* MCLoginBussines.m in Sources */ = {isa = PBXBuildFile; fileRef = 313FCDFB1D53CC15000F1CE4 /* MCLoginBussines.m */; };
 		313FCDFF1D53CC29000F1CE4 /* MCProvider+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 313FCDFE1D53CC29000F1CE4 /* MCProvider+Login.m */; };
@@ -116,10 +116,10 @@
 		312EC3201D622F1C00E486F7 /* MCMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMainView.m; sourceTree = "<group>"; };
 		312EC3221D622F9A00E486F7 /* MCMainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMainManager.h; sourceTree = "<group>"; };
 		312EC3231D622F9A00E486F7 /* MCMainManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMainManager.m; sourceTree = "<group>"; };
-		312EC3251D623CB900E486F7 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
-		312EC3261D623CB900E486F7 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
-		312EC3281D623D3600E486F7 /* LeftViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewCell.h; sourceTree = "<group>"; };
-		312EC3291D623D3600E486F7 /* LeftViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewCell.m; sourceTree = "<group>"; };
+		312EC3421D63507F00E486F7 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		312EC3431D63507F00E486F7 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		312EC3451D63515600E486F7 /* ChooseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseNavigationController.h; sourceTree = "<group>"; };
+		312EC3461D63515600E486F7 /* ChooseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseNavigationController.m; sourceTree = "<group>"; };
 		313FCDF41D53AC5A000F1CE4 /* MCLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLoginManager.h; sourceTree = "<group>"; };
 		313FCDF51D53AC5A000F1CE4 /* MCLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCLoginManager.m; sourceTree = "<group>"; };
 		313FCDFA1D53CC15000F1CE4 /* MCLoginBussines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCLoginBussines.h; sourceTree = "<group>"; };
@@ -254,6 +254,17 @@
 			name = Category;
 			sourceTree = "<group>";
 		};
+		312EC3411D63505A00E486F7 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				312EC3421D63507F00E486F7 /* TableViewController.h */,
+				312EC3431D63507F00E486F7 /* TableViewController.m */,
+				312EC3451D63515600E486F7 /* ChooseNavigationController.h */,
+				312EC3461D63515600E486F7 /* ChooseNavigationController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
 		3166A5E71D5E0407001C1D8D /* Fields */ = {
 			isa = PBXGroup;
 			children = (
@@ -353,6 +364,7 @@
 		31983B8C1D49359800533617 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				312EC3411D63505A00E486F7 /* Menu */,
 				3166A5E71D5E0407001C1D8D /* Fields */,
 				31983B8E1D4935F100533617 /* View */,
 				31983B8F1D4935F700533617 /* Controller */,
@@ -400,10 +412,6 @@
 				31C145F11D512E2000C2AF61 /* MCRegisterRequestVC.m */,
 				312EC31C1D622EC000E486F7 /* MCMainViewController.h */,
 				312EC31D1D622EC000E486F7 /* MCMainViewController.m */,
-				312EC3251D623CB900E486F7 /* LeftViewController.h */,
-				312EC3261D623CB900E486F7 /* LeftViewController.m */,
-				312EC3281D623D3600E486F7 /* LeftViewCell.h */,
-				312EC3291D623D3600E486F7 /* LeftViewCell.m */,
 			);
 			name = Controller;
 			path = Source/Controller;
@@ -779,11 +787,11 @@
 				318E66121D58B587006014E4 /* MCProvider.m in Sources */,
 				31C145F51D52779300C2AF61 /* MCLoginView.m in Sources */,
 				3143BB041D61FA8B00AA063B /* MCRegisterModel.m in Sources */,
+				312EC3441D63507F00E486F7 /* TableViewController.m in Sources */,
 				312EC31E1D622EC000E486F7 /* MCMainViewController.m in Sources */,
 				312EC3241D622F9A00E486F7 /* MCMainManager.m in Sources */,
 				313FCDF61D53AC5A000F1CE4 /* MCLoginManager.m in Sources */,
 				31C145F81D5277B500C2AF61 /* MCRegisterRequestView.m in Sources */,
-				312EC3271D623CB900E486F7 /* LeftViewController.m in Sources */,
 				3166A5ED1D5E0A0D001C1D8D /* UICardValidateField.m in Sources */,
 				31C145F21D512E2000C2AF61 /* MCRegisterRequestVC.m in Sources */,
 				31983B611D49350C00533617 /* ViewController.m in Sources */,
@@ -791,10 +799,10 @@
 				3166A5EA1D5E0429001C1D8D /* UINomeValidateField.m in Sources */,
 				312EC3211D622F1C00E486F7 /* MCMainView.m in Sources */,
 				3143BB011D61F95300AA063B /* MCRegisterBussines.m in Sources */,
-				312EC32A1D623D3600E486F7 /* LeftViewCell.m in Sources */,
 				312C1F8A1D4F8D960029F3E8 /* UITextField+EmailTextField.m in Sources */,
 				3157A43A1D5E3FB6003AE7FC /* MCEthernetBussines.m in Sources */,
 				31C145FB1D5277EB00C2AF61 /* MCTermsView.m in Sources */,
+				312EC3471D63515600E486F7 /* ChooseNavigationController.m in Sources */,
 				31983B5B1D49350C00533617 /* main.m in Sources */,
 				3166A5F01D5E0D1C001C1D8D /* UICellPhoneValidateField.m in Sources */,
 				3166A5E61D5DF75F001C1D8D /* UIEmailValidateField.m in Sources */,
